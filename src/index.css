@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+@layer base{
+     body {
+        @apply font-[PT+Sans];
+     }
+     li {
+        @apply px-4;
+        @apply cursor-pointer
+
+     }
+    };
+  
